@@ -2,7 +2,7 @@ use clap::{App, Arg, ArgMatches, SubCommand};
 use console::{style, Term};
 use std::{thread, time::Duration};
 
-const SATBOT_AVAILABLES: [&str; 3] = ["SB_Rob", "SB_Josh", "SB_Ann"];
+const SATBOT_AVAILABLES: [&str; 3] = ["Josh", "Ann", "Rob"];
 
 // task selection
 pub fn run_task(args: &ArgMatches) {
