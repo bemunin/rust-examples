@@ -79,7 +79,7 @@ pub fn upload_to_satbot(args: &ArgMatches) {
 pub fn build_cmdline() -> App<'static, 'static> {
     App::new("SatBot")
         .version("1.0.0")
-        .author("Be Munin")
+        .author("Be Munin<email@email.com>")
         .about("Command-line app to connect SatBot in outerspace")
         .subcommand(build_subcmd_start())
         .subcommand(build_subcmd_stop())
